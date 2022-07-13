@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+input,
+button {
+    padding: 0;
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+h1,
+h2,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.banner-part {
+    background-image: url(images-1/donation3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-part .banner-overlay {
+    background: rgba(0, 0, 0, .65);
+}
+
+.banner-part .banner-text {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+.banner-part .banner-text h1.help {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 150px;
+    margin-bottom: -10px;
+}
+.banner-part .banner-text h2.need {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+.banner-part .banner-text p.one {
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #fff;
+}
+.banner-part .banner-text p.two {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.banner-part .banner-text a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 10px 20px;
+    transition: all linear .3s;
+    background: #e70505;
+    border-radius: 5px;
+    color: #fff
+}
+.banner-part .banner-text a:hover {
+    color: #f1f1f1;
+    background: rgb(154, 88, 216);
+}
+.donate-part .donate-text h1 {
+    font-size: 50px;
+    color: #000;
+    padding-left: 440px;
+    padding-top: 130px;
+}
+.donate-part .donate-text p {
+    font-size: 15px;
+
+    text-transform: capitalize;
+    padding-left: 320px;
+    padding-top: 20px;
+    color: silver;
+
+}
+.donate-part .donate-text span {
+    font-size: 14px;
+    padding-left: 450px;
+    color: silver;
+}
+.donate-part .donate-menu {
+    padding-top: 63px;
+
+}
+.donate-part .donate-menu ul {
+    list-style: none;
+    display: flex;
+
+}
+.donate-part .donate-menu ul li {
+    margin-top: 40px;
+}
+.donate-part .donate-menu ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 50px 70px;
+    color: #979797;
+    border-radius: 3px;
+    margin: 0px 20px;
+    background: #FAFAFA;
+}
+.donate-part .donate-menu ul li a:hover {
+    color: #FF8585;
+    border: 3px solid #FF8585;
+    transition: all linear .3s;
+
+}
+.donate-part .donate-menu ul li a.active {
+    color: #FF8585;
+    border: 3px solid #FF8585;
+    background-color: #FFC3C3;
+}
+.donate-part .form {
+    padding-top: 100px;
+}
+.donate-part .form input {
+    width: 112%;
+    height: 112%;
+    padding-top: 20px;
+    border: none;
+    pointer-events: none;
+    border-bottom: 3px solid #F4F4F4;
+    color: silver;
+    font-size: 20px;
+}
+.donate-part .form input[type=text] {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.donate-part .donate-button {
+    padding-left: 600px;
+    margin-top: 30px;
+}
+.donate-part .donate-button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 10px 20px;
+    transition: all linear .3s;
+    background: #e70505;
+    border-radius: 5px;
+    color: #fff;
+}
+.donate-part .donate-button a:hover {
+    color: #f1f1f1;
+    background: rgb(154, 88, 216);
+}
+/* donate-part end*/
+.donate-plane .donate-plane-text h1 {
+    font-size: 50px;
+    color: #000;
+    padding-left: 440px;
+    padding-top: 130px;
+}
+.donate-plane .donate-plane-text p {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-left: 320px;
+    padding-top: 20px;
+    color: silver;
+    font-size: 15px;
+}
+.donate-plane .donate-plane-text span {
+    font-size: 14px;
+    padding-left: 450px;
+    color: silver;
+}
+.donate-plane .donate-other-part {
+    display: flex;
+    margin-top: 80px;
+}
+.donate-plane .food-part {
+    padding: 20px 20px;
+
+    background-color: #EDF5F6;
+    margin: 0px 20px;
+}
+.donate-plane .food-part img {
+    margin-top: 60px;
+}
+.donate-plane .food-part h2 {
+    font-size: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.donate-plane .food-part p {
+    margin-top: 20px;
+    color: #B3B8B8;
+}
+.donate-plane .family-part {
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background-color: #FFEEEE;
+}
+
+.donate-plane .family-part img {
+    margin-top: 70px;
+}
+.donate-plane .family-part h2 {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.donate-plane .family-part p {
+    margin-top: 20px;
+    color: #B3B8B8;
+    margin-bottom: 20px;
+}
+.donate-plane .education-part {
+    padding: 0px 30px;
+    background-color: #FFF4D6;
+    margin-left: 20px;
+}
+.donate-plane .education-part img {
+    margin-top: 70px;
+}
+.donate-plane .education-part h2 {
+    font-size: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.donate-plane .education-part p {
+    margin: 20px 3px;
+    color: #B3B8B8;
+}
+/*donate-plane-part end */
+.work-part {
+    background: #fff;
+    margin-top: 50px;
+
+}
+.work-part .row-1 h1 {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
+.common p {
+    color: #062033;
+
+    font-size: 15px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    color: silver;
+}
+.work-part .work-menu {
+    margin-top: 40px;
+}
+.work-part .work-menu .menu-iteam {
+    text-align: center;
+}
+.work-part .work-menu .menu-iteam button {
+
+    background: #FF5959;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding-right: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -mos-transition: all linear .3s;
+    -0-transition: all linear .3s;
+    cursor: pointer;
+}
+.work-part .work-menu .menu-iteam button.active {
+    color: #fff;
+    background: #000;
+}
+.work-part .work-menu .menu-iteam button:hover {
+    color: #FFEEEE;
+    background: #000;
+}
+.work-part .work-image {
+
+    background: #ddd;
+}
+.work-part .work-image .image-gallery {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.work-part .work-image .image-gallery .col-25 {
+    width: 25%;
+    position: relative;
+    float: left;
+}
+.work-part .work-image .image-gallery .col-25 img {
+    width: 100%;
+}
+.work-part .work-image .image-gallery .col-25 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, .65);
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -mos-transition: all linear .3s;
+    -0-transition: all linear .3s;
+    cursor: pointer;
+
+}
+.work-part .work-image .image-gallery .col-25:hover .overlay {
+    opacity: 1;
+}
+.work-part .work-image .image-gallery .col-25 .overlay h1 {
+
+    font-size: 20px;
+    color: #fff;
+    margin-top: 229px;
+}
+.work-part .work-image .image-gallery .col-25 .overlay p {
+
+    font-size: 13px;
+    color: #fff;
+    margin-top: 10px;
+}
+/* work part end*/
+.update-part .update-text h1 {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
+.update-part .update-text p {
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 320px;
+    padding-top: 20px;
+    color: silver;
+}
+.update-part .update-text span {
+    font-size: 14px;
+    padding-left: 450px;
+    color: silver;
+}
+.update-part .input-part .input-area {
+    width: 550px;
+    height: 130px;
+    background-color: #FFF4D6;
+    margin-top: 40px;
+    margin-left: 339px;
+    border: 0px;
+
+}
+.update-part .input-part input {
+
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 10px;
+    text-transform: capitalize;
+    padding: 13px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 13px;
+    border-radius: 2px;
+    border: none;
+    color: #000;
+}
+.update-part .input-part label {
+    position: relative;
+}
+.update-part .input-part button {
+    color: #fff;
+    text-transform: capitalize;
+    border: 0;
+    position: absolute;
+    top: -7px;
+    border-radius: 2px;
+    background: red;
+    padding: 13px;
+    right: -94px;
+    font-size: 10px;
+    width: 100px;
+}
+/* update-part end*/
+.footer-part {
+
+    background: #000;
+    margin-top: 50px;
+}
+.footer-part h2 {
+    font-size: 25px;
+    color: #A33c40;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-part h4 {
+    font-size: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+/* footer part end*/
